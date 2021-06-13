@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-brand{
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.navi{
+    color:white !important;
+}
+.active{
+    background-color:skyblue;
+    color: white;
+}
+.navbar-nav{
+    padding-right: 50px;
+}
+.navbar-brand:hover{
+    font-weight: bold;
+    color:orangered!important;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.super{
+    padding: 10px;
+}
+.super a:hover{
+    background-color:yellow;
+    color: red !important;
+    margin: auto;
+    transition: 0.5s ;
+}
+
+.myimage{
+    height: 100%; 
+    width: 100%;
+}
+ol.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+}
+ol.carousel-indicators li.active{
+    opacity: 10;
+    background-color:deepskyblue;
+}
+
+ol.carousel-control-prev-icon,ol.carousel-control-next-icon{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 1.7em;
+}
+.good{
+    color: deepskyblue;
+    padding: 30px;
+    font-size: 30px;
+}
+/*THIS CLASS IS FOR ALL COLUMNS IN THEIR ROWS*/
+.paddy{
+    padding-bottom: 30px;
+}
+.multi{
+    text-align: center;
+    padding: 70px 30px;
+    line-height: 1.6;
+}
+
+.row{
+    margin: auto;
+    padding:30px;
+}
+.col-md-4{
+    line-height: 2.0;
+    width: auto;
+    padding-bottom: 60px;
+}
+
+.psycho{
+    color: deepskyblue;
+    line-height: 1.6;
+}
+
+.para{
+    line-height: 2.0;
+}
+
+.listings{
+    text-align: justify;
+    line-height: 2.3;
+}
+.hello ,.fas{
+    line-height: 2.0;
+    text-align: justify;
+}
+
+.steps,.steps .nav,.fab{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    background-color: deepskyblue;
+}
+.fab:hover{
+    color:red;
+}
